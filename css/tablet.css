@@ -1,0 +1,18 @@
+@media(max-width:920px) {
+
+    /* header  */
+    .header_bottom_ul {
+        column-gap: 60px;
+    }
+
+    .header_bottom_list {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:850px) {
+    /* header  */
+    .header_form {
+        display:none;
+    }
+}

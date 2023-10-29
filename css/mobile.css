@@ -1,0 +1,40 @@
+@media(max-width:650px) {
+
+    /* header  */
+    .header_top_div {
+        padding-inline: 8px;
+    }
+
+    .log_in_text {
+        display: none;
+    }
+
+    .fa-user {
+        display: block;
+        padding: 8px;
+        color: #FFFFFF;
+        border: 1px solid #F30AEA;
+        border-radius: 8px;
+    }
+
+    .fa-cart-shopping {
+        padding: 8px;
+    }
+
+    .header_bottom_div {
+        padding: 16px 64px;
+        column-gap: 168px;
+    }
+
+    .header_bottom_nav {
+        display: none;
+    }
+
+    .fa-bars,
+    .header_bottom_glass {
+        display: block;
+        color: #FFFFFF;
+        font-size: 32px;
+    }
+
+}
