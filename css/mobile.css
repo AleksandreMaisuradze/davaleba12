@@ -38,3 +38,22 @@
     }
 
 }
+
+@media(max-width:600px) {
+
+    /* section  */
+
+    .section_main_div {
+        margin-inline: 14px;
+        padding-inline: 6px;
+    }
+    .text_email {
+        width: 100%;
+    }
+    .form2_labels {
+        font-size: 14px;
+    }
+    .radio_text {
+        font-size: 13px;
+    }
+}

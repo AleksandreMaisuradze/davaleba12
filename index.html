@@ -47,6 +47,57 @@
                 </nav>
             </div>
         </header>
+
+        <!-- section  -->
+
+        <section>
+            <div class="section_main_div">
+                <h2 class="section_form_title">CONTACT US</h2>
+                <form name="form2" class="section_form">
+                    <div class="section_form_name_mail">
+                        <input type="text" placeholder="Name" name="Name" class="text_email">
+                        <input type="email" placeholder="Email" name="Email" class="text_email">
+                    </div>
+                    <div class="section_form_selection_div">
+                        <label for="select" class="form2_labels">Is your question about an existing order?</label>
+                        <select id="select" name="answer">
+                            <option value=""></option>
+                            <option value="yes">yes</option>
+                            <option value="no">no</option>
+                        </select>
+                    </div>
+                    <div class="section_form_radio_div">
+                        <label for="" class="form2_labels">I have a delivery question about my order</label>
+                        <div class="radio_div">
+                            <input type="radio" id="radio1" class="radio" value="1" name="order_question">
+                            <label for="radio1" class="radio_text">I did not receive my order</label>
+                        </div>
+                        <div class="radio_div">
+                            <input type="radio" id="radio2" class="radio" value="2" name="order_question">
+                            <label for="radio2" class="radio_text">My order is incorrect or arriveddamaged</label>
+                        </div>
+                        <div class="radio_div">
+                            <input type="radio" id="radio3" class="radio" value="3" name="order_question">
+                            <label for="radio3" class="radio_text">Cancel my order</label>
+                        </div>
+                        <div class="radio_div">
+                            <input type="radio" id="radio4" class="radio" value="4" name="order_question">
+                            <label for="radio4" class="radio_text">Change my shipping address</label>
+                        </div>
+                    </div>
+                    <div class="message_div">
+                        <label for="message_div_text" class="form2_labels">Please provide more details below.</label>
+                        <textarea name="message" id="message_div_text" cols="30" rows="7"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <div class="checkbox_div">
+                        <input type="checkbox" id="checkbox" name="receive" value="yes">
+                        <label for="checkbox" class="form2_labels">I want to receive the newsletter </label>
+                    </div>
+                    <button type="submit" class="section_button">SEND</button>
+                </form>
+            </div>
+        </section>
     </div>
 
 </body>
