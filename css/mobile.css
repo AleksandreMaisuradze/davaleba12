@@ -46,6 +46,7 @@
 
     .social_media_icons {
         justify-content: center;
+        
     }
 
     .adress_texts {
@@ -55,6 +56,7 @@
     .contact_main_div {
         display: flex;
         justify-content: center;
+        column-gap: 14px;
     }
 
     .contact {
