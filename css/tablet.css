@@ -9,23 +9,37 @@
         font-size: 16px;
     }
 }
-@media(max-width:890px){
+
+@media(max-width:890px) {
+
     /* section  */
     section {
         padding-inline: 14px;
     }
+
     .section_main_div {
         width: 100%;
         padding-inline: 100px;
     }
+
     .section_form {
         width: 100%;
     }
 }
 
 @media(max-width:850px) {
+
     /* header  */
     .header_form {
-        display:none;
+        display: none;
     }
+
+    /* footer  */
+    footer {
+        padding-inline: 24px;
+    }
+    .social_media_icons {
+        column-gap: 12px;
+    }
+
 }
