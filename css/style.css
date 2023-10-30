@@ -278,7 +278,7 @@ option {
     height: 24px;
     border: 2px solid #F30AEAB5;
     border-radius: 2px;
-    outline: none;
+    /* outline: none; */
     display: flex;
     justify-content: center;
     align-items: center;
